@@ -1,5 +1,9 @@
 <script>
 	import Slides from '../components/Slides.svelte';
+  import Gallery from '../components/Gallery.svelte';
+
+  import cardCategories from '../data/cardCategories';
+
 </script>
 
 <svelte:head>
@@ -74,7 +78,22 @@
 </div>
 </section>
 
+<section>
+  <Gallery>
+    {#each cardCategories as categoryData}
+      <div class="flex flex-row flex-wrap justify-center w-full">
+        {#each categoryData.cardsData.slice(0, 5) as boardgameCard}
+            <div class="cards-row">
+                <img class='grid-item grid-item-{boardgameCard.id + 1}' src={boardgameCard.img} alt=''>
+            </div>
+        {/each}
+      </div>
+    {/each}
+  </Gallery>
+</section>
+
 <Slides />
+
 <!-- 
 <section class="pg pj vp mr oj wp nr">
 	<div class="flex-row tc ">
