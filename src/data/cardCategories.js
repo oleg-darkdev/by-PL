@@ -1,3 +1,5 @@
+import cardsData from './boardgameCards';
+
 let categories = [
 	{
 		bgImage: 'history',
@@ -6,7 +8,7 @@ let categories = [
 		description: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
 		],
-		align: 'start',
+		// align: 'start',
 		anchor: '',
 		miniImg: '', // offer_vol_letter.svg
 		listData: [
@@ -17,7 +19,8 @@ let categories = [
 			'piłka nożna',
 			'duże protesty',
 			'nie byli na Księżycu'
-		]
+		],
+		cardsData: cardsData.history
 	},
 	{
 		bgImage: 'culture',
@@ -39,7 +42,8 @@ let categories = [
 			'Adam Bernard Mickiewicz',
 			'Konstanty Kalinowski',
 			'Tadeusz Kościuszko'
-		]
+		],
+		cardsData: cardsData.culture
 	},
 	{
 		bgImage: 'territory',
@@ -80,7 +84,8 @@ let categories = [
 			'kraj sąsiadujący: Litwa',
 			'kraj sąsiadujący: Łotwa',
 			'kraj sąsiadujący: Rosja'
-		]
+		],
+		cardsData: cardsData.territory
 	},
 	{
 		bgImage: 'feast',
@@ -103,7 +108,8 @@ let categories = [
 			'Dziady',
 			'Dożynki',
 			'Kolędy'
-		]
+		],
+		cardsData: cardsData.feasts
 	}
 ];
 
