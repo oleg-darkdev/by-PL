@@ -59,4 +59,5 @@
 			background-image: url(/images/bg/feast.svg);
 		}		
 	}
+
 </style>

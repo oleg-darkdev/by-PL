@@ -12,17 +12,17 @@
 </svelte:head>
 
 
-<main class="flex items-center flex-col pt-20">
+<main class="flex items-center p-2 flex-col pt-20">
     <section style="height: 100vh;" class="mb-8 w-full flex items-center flex-col">
-    <Breadcrumb aria-label="Solid background breadcrumb example" solid>
+    <!-- <Breadcrumb aria-label="Solid background breadcrumb example" solid>
         <BreadcrumbItem href="/" home>Strona główna</BreadcrumbItem>
         <BreadcrumbItem href="/app">Aplikacja</BreadcrumbItem>
         <BreadcrumbItem>Karta №{$page.params.card}</BreadcrumbItem>
-    </Breadcrumb>
+    </Breadcrumb> -->
     <h1 class="mb-2 text-2xl font-impact tracking-tight text-red-500 dark:text-white">
         Para kart do gry z cyfrą №{$page.params.card}, wyglądają 
     </h1> 
-    <div class="flex flex-row flex-wrap w-full justify-center">
+    <div class="flex flex-row flex-wrap  justify-center">
         <div style="width: 400px;" class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col">
             <img class="rounded-t-lg" src="{cardData.img[0]}" alt="{cardData.title}"> 
             <div class="p-4 sm:p-6">
@@ -52,11 +52,11 @@
         </div>
     </section>
 
-    <section class="bg-gray-200 w-6/12 pt-12 pb-12 flex flex-col items-center shadow-2xl rounded-lg border-2 border-gray-200">
-        <h3 class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-900 dark:text-white">
+    <section class="bg-gray-200 xl:w-6/12 lg:w-6/12 md:w-8/12 w-full pt-12 pb-12 flex flex-col items-center shadow-2xl rounded-lg border-2 border-gray-200">
+        <h3 class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-800 dark:text-white">
             Źródła informacji 
         </h3> 
-        <article class="mb-10 ">
+        <article class="mb-10 w-full p-4">
             <h3 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
                 W języku angielskim
             </h3> 
@@ -73,7 +73,7 @@
                     </ol>
             {/each}
         </article>
-        <article class="mb-10">
+        <article class="mb-10 w-full p-4">
             <h2 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
                 W języku rosyjskim
             </h2> 
