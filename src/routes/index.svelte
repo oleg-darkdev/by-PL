@@ -1,9 +1,7 @@
 <script>
-	import Slides from '../components/Slides.svelte';
   import Gallery from '../components/Gallery.svelte';
-
+  import TypesOfCards from '../components/TypesOfCards.svelte';
   import cardCategories from '../data/cardCategories';
-
 </script>
 
 <svelte:head>
@@ -19,20 +17,27 @@
 <div class="bb ze ki xn 2xl:ud-px-0">
 	<div class="tc _o">
 	<div class="animate_left jn/2">
-		<h1 class="fk vj zp or kk wm wb">
-			Edukacyjna gra planszowa o tym, jak podobne są narody Białorusi i Polski.
+		<h1 style="font-family: 'Impact';" class="fk vj zp or kk wm">
+			Witamy na stronie projektu edukacyjnego:
 		</h1>
-		<p class="fq">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus consequat varius nisi quis, posuere magna.
-		</p>
+    <h2 style="font-family: 'Impact';" class="fk vj text-3xl font-impact tracking-tight text-red-500 ">
+      "Co łączy narody Białorusi i Polski".
+    </h2>
 
-		<div class="tc tf yo zf mb">
-		<a href="#" class="ek jk lk gh gi hi rg ml il vc _d _l"
+		<p style="margin-top: 10px;" class="">
+      Dzięki materiałom przygotowanym w ramach tego projektu dowiesz się więcej o związku tych dwóch sąsiadujących ze sobą krajów, ich historii, kulturze i tradycji.
+		</p>
+		<p class="fq">
+      Będziesz podróżować przez historyczne epoki i poruszać różne tematy, takie jak kultura, sztuka, historia i inne, aby odkryć podobieństwa i porównać, co łączy ludzi z Białorusi i Polski.
+    </p>
+
+    <div class="tc tf yo zf mt-6">
+		<a href="/#about" class="ek jk lk gh gi hi rg ml il vc _d _l"
 			>Czytaj więcej</a
 		>
 
 		<span class="tc sf">
-			<a href="#" class="inline-block ek xj kk wm"> oleg@darkdev.games </a>
+			<a href="mailto:oleg@darkdev.games" class="inline-block ek xj kk wm text-red-500"> oleg@darkdev.games </a>
 			<span class="inline-block">Skontaktuj się z autorem</span>
 		</span>
 		</div>
@@ -42,7 +47,7 @@
 </section>
 
 <section class="ji gp uq 2xl:ud-py-35 pg">
-<div class="bb ze ki xn wq">
+<div id="about" class="bb ze ki xn wq">
     <div class="tc wf gg qq">
     <div class="animate_left xc gn gg jn/2 i">
         <div>
@@ -58,41 +63,83 @@
     </div>
 
     <div class="animate_right jn/2">
-        <h4 class="ek yj mk gb">Dlaczego powstała ta gra</h4>
-        <h2 class="fk vj zp pr kk wm qb">
-			Pokazać, jak bardzo jest podobni narody Polski i Białorusi.
-		</h2>
-        <p class="uo">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris.
+    <h2 class="ek yj text-red-500 ">Projekt składa się z edukacyjnej gry planszowej oraz web-aplikacji</h2>
+    <h3 style="font-family: 'Impact';" class="fk vj zp pr kk font-impact">
+			Cel projektu: pokazać, jak bardzo jest podobni narody Polski i Białorusi.
+		</h3>
+    <p class="uo">
+			W grze wykorzystacie swoją uważność i umiejętność pracy w zespole. Zobaczycie, jak wiele łączy nasze narody i jak wiele można się o sobie nawzajem dowiedzieć.
 		</p>
-		  <a href="https://www.youtube.com/watch?v=xcJtL7QggTI" data-fslightbox class="vc wf hg mb">
-        <span class="tc wf xf be dd rg i gh ua">
-            <span class="nf h vc yc vd rg gh qk -ud-z-1"></span>
-            <img src="images/icon-play.svg" alt="Play" />
-        </span>
-        <span class="kk">Idź do aplikacji</span>
-        </a>
+       
+    <ul style="margin-bottom: 20px;"  class="text-light text-gray-900 max-w-md list-inside space-y-1 ">
+      <li class="ml-8 list-disc">
+          <a href="#culture">
+            znanych osóbach, które wniosły wkład w historię i kulturę Białorusi i Polski,
+          </a>  
+      </li> 
+        <li class="ml-8  list-disc">
+          <a href="#culture">
+            kuchnie narodowe i preferencje żywnościowe
+          </a>  
+      </li> 
+        <li class="ml-8  list-disc">
+          <a href="#feast">
+            zwyczaje i święta kulturowe
+          </a>  
+      </li> 
+        <li class="ml-8  list-disc">
+          <a href="#territory">
+            miasta partnerskie, które warto odwiedzić
+          </a>  
+      </li> 
+        <li class="ml-8  list-disc">
+          <a href="#history">
+            ważne wspólne wydarzenia historyczne
+          </a>  
+      </li> 
+        <li class="ml-8 list-disc">
+          <a href="#history">
+            relacje między narodami Białorusi i Polski i ich wkład w politykę regionalną i międzynarodową.
+          </a>  
+      </li> 
+    </ul>
+    <a href="/app" style="width: 260px;" data-fslightbox class="vc wf hg mb p-2 flex pt-4 items-center flex-col bg-white text-white rounded-lg border-4 border-red-500 shadow-md  hover:border-red-200 flex-col hover:bg-gray-100 hover:text-red-500 " >
+           <span class="tc wf xf be dd rg i gh ua">
+          <span class="nf h vc yc vd rg gh qk -ud-z-1"></span>
+          <img src="images/icon-play.svg" alt="Play" />
+      </span>
+      <span class="mb-2 -mt-4 text-3xl font-impact tracking-tight text-red-500 ">
+        Do aplikacji
+      </span>
+
+    </a>
       
     </div>
     </div>
 </div>
 </section>
 
-<section>
+<section class="w-full -mt-20 pb-12 mb-2 flex flex-col items-center" >
+  <h2 style="font-family: 'Impact'; font-size: 2.5rem; margim-bottom: 10px;" class="text-gray-700">Galeria obrazów wykorzystanych w grze</h2>
+
   <Gallery>
     {#each cardCategories as categoryData}
-      <div class="flex flex-row flex-wrap justify-center w-full">
+      <!-- <div class="flex flex-row flex-wrap justify-center w-full"> -->
         {#each categoryData.cardsData.slice(0, 5) as boardgameCard}
             <div class="cards-row">
-                <img class='grid-item grid-item-{boardgameCard.id + 1}' src={boardgameCard.img} alt=''>
+                <img class='grid-item grid-item-{boardgameCard.id + 1}' src={boardgameCard.img[0]} alt=''>
             </div>
         {/each}
-      </div>
+      <!-- </div> -->
     {/each}
   </Gallery>
 </section>
 
-<Slides />
+
+{#each cardCategories as category}
+	<TypesOfCards {category}/>
+{/each}
+
 
 <!-- 
 <section class="pg pj vp mr oj wp nr">
@@ -876,7 +923,7 @@ h1,  h2,  h3,  h4,  h5,  h6{
   margin-top: 0.75rem;
 }
 .mb{
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
 }
 .nb{
   margin-top: 2.75rem;
