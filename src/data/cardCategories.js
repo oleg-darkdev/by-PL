@@ -8,9 +8,9 @@ let categories = [
 		description: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
 		],
-		// align: 'start',
+
 		anchor: '',
-		miniImg: '', // offer_vol_letter.svg
+		miniImg: 'history-bg-mini',
 		listData: [
 			'obie były w Związku Radzieckim',
 			'podobne flagi',
@@ -32,7 +32,7 @@ let categories = [
 		],
 		align: 'end',
 		anchor: '',
-		miniImg: '', // offer_vol_letter.svg
+		miniImg: 'culture-bg-mini',
 		listData: [
 			'pierogi',
 			'barszcz czerwony',
@@ -55,7 +55,7 @@ let categories = [
 		],
 		align: 'start',
 		anchor: '',
-		miniImg: '', // offer_vol_letter.svg
+		miniImg: 'territory-bg-mini',
 		listData: [
 			'Hajnówka - Język białoruski ma status języka pomocniczego obok oficjalnego języka polskiego',
 			'Orla - Język białoruski ma status języka pomocniczego obok oficjalnego języka polskiego ',
@@ -97,7 +97,7 @@ let categories = [
 		],
 		align: 'end',
 		anchor: '',
-		miniImg: '', // offer_vol_letter.svg
+		miniImg: 'feast-bg-mini',
 		listData: [
 			'Wielkanoc',
 			'Święto Pracy',
