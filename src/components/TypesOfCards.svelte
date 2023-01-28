@@ -4,7 +4,7 @@
 	export let category;
 </script>
 
-<section id={category.anchor} style="" class="bg-image-wrap  {category.bgImage} " >
+<section id={category.anchor} style="" class="bg-image-wrap {category.bgImage} " >
 	<div data-aos="fade-down"
 		data-aos-delay="80"
 		data-aos-duration="800" 
@@ -13,7 +13,7 @@
 		<div 
 		style="min-width: 320px;" class="w-full pt-8 pb-8 pr-2 pl-2  description  ">
 
-			<h3 class=" m-8 text-5xl lg:text-6xl md:text-6xl text-lightYellow font-bold">{category.title}</h3>
+			<h3 class=" m-8 text-5xl lg:text-6xl md:text-6xl text-red-500 font-impact">{category.title}</h3>
 
 			<p class="font-normal w-full lg:w-8/12 md:w-8/12 w-11/12  leading-tight mb-2 text-viol">
   				{category.description}
@@ -28,12 +28,20 @@
 
 <style>
 	
-	:global(.bg-image-wrap:nth-child(2n) .boardgame-image-wrap) {
+	:global(.bg-image-wrap:nth-child(2n) > .boardgame-image-wrap) {
 		margin-right: -25vw;
 	}
 	:global(.bg-image-wrap:nth-child(2n+1) .boardgame-image-wrap) {
 		margin-left: -25vw;
 
+	}
+	:global(.bg-image-wrap:nth-child(2n)  div .description  div .counter-wrap ) {
+		display: flex;
+		justify-content: end;
+	}
+	:global(.bg-image-wrap:nth-child(2n+1)  div .description  div .counter-wrap ) {
+		display: flex;
+		justify-content: start;
 	}
 	.bg-image-wrap:nth-child(2n) .description, 
 	.bg-image-wrap:nth-child(2n) .description > h3, 
@@ -71,26 +79,6 @@
 		background-size: auto;
 		background-attachment: fixed;
 	}
-	@media (min-width: 1024px) {
-		.bg-image-wrap {
-			min-height: 100vh;
-		}
 
-		/* categories */
-		.history {
-			background-image: url(/images/bg/history.svg);
-		}
-		.culture {
-			background-image: url(/images/bg/culture.svg);
-		}
-		.territory {
-			background-image: url(/images/bg/territory.svg);
-		}
-		.feast {
-			background-image: url(/images/bg/feast.svg);
-		}
-
-		
-	}
 
 </style>
