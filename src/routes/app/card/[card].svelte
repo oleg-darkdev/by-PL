@@ -1,10 +1,10 @@
 <script>
     import { page } from '$app/stores';
     import boardgameCards from '../../../data/boardgameCards';
-    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+    // import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
 
     const cardsList = [].concat(boardgameCards.history, boardgameCards.culture, boardgameCards.territory, boardgameCards.feasts),
-            cardData = cardsList[$page.params.card];   
+            cardData = cardsList[$page.params.card - 1];   
 </script>
 
 <svelte:head>
@@ -13,24 +13,19 @@
 
 
 <main class="flex items-center p-2 flex-col pt-20">
-    <section style="height: 100vh;" class="mb-8 w-full flex items-center flex-col">
+    <section style="min-height: 100vh; height: auto;" class="mb-8 w-full flex items-center flex-col">
     <!-- <Breadcrumb aria-label="Solid background breadcrumb example" solid>
         <BreadcrumbItem href="/" home>Strona główna</BreadcrumbItem>
         <BreadcrumbItem href="/app">Aplikacja</BreadcrumbItem>
         <BreadcrumbItem>Karta №{$page.params.card}</BreadcrumbItem>
     </Breadcrumb> -->
-    <h1 class="mb-2 text-2xl font-impact tracking-tight text-red-500 dark:text-white">
-        Para kart do gry z cyfrą №{$page.params.card}, wyglądają 
+    <h1 class="mb-2 text-4xl font-impact tracking-tight text-red-500 dark:text-white">
+        Para kart z cyfrą №{cardData.id}
     </h1> 
     <div class="flex flex-row flex-wrap  justify-center">
         <div style="width: 400px;" class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col">
             <img class="rounded-t-lg" src="{cardData.img[0]}" alt="{cardData.title}"> 
             <div class="p-4 sm:p-6">
-            {#each cardData.description as description}
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
-                    {description}
-                </p> 
-            {/each}
                 <a href="#sources-en" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-6 py-3.5 text-base text-white bg-red-500 hover:bg-gray-900 focus:ring-blue-300  rounded-lg">
                     Do zródła informacji 
                 </a>
@@ -39,16 +34,23 @@
         <div style="width: 400px;" class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col">
             <img class="rounded-t-lg" src="{cardData.img[1]}" alt="{cardData.title}"> 
             <div class="p-4 sm:p-6">
-            {#each cardData.description as description}
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
-                    {description}
-                </p> 
-            {/each}
                 <a href="#sources-ru" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-6 py-3.5 text-base text-white bg-red-500 hover:bg-gray-900 focus:ring-blue-300  rounded-lg">
                     Do zródła informacji 
                 </a>
             </div>
         </div>
+        </div>
+        <div style="" class="max-w-4xl m-4 bg-gray-100 text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col">
+            <div class="p-4 sm:p-6">
+            <h3 class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-800 dark:text-white">
+                Informacja ogólna
+            </h3> 
+            {#each cardData.description as description}
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                    {description}
+                </p> 
+            {/each}
+            </div>
         </div>
     </section>
 
@@ -57,9 +59,9 @@
             Źródła informacji 
         </h3> 
         <article class="mb-10 w-full p-4">
-            <h3 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
-                W języku angielskim
-            </h3> 
+            <h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
+                W języku polskim
+            </h4> 
             {#each cardData.sourcesEn as sourceData}
                     <ol id="sources-en" class="gradient-list">
                         <li>
@@ -74,9 +76,9 @@
             {/each}
         </article>
         <article class="mb-10 w-full p-4">
-            <h2 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
+            <h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
                 W języku rosyjskim
-            </h2> 
+            </h4> 
             {#each cardData.sourcesRu as sourceData}
                     <ol id="sources-ru" class="gradient-list">
                         <li>
