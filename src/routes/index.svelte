@@ -32,8 +32,8 @@
     </p>
 
     <div class="tc tf yo zf mt-6">
-		<a href="/#about" class="ek jk lk gh gi hi rg ml il vc _d _l"
-			>Czytaj więcej</a
+		<a href="/app" class="ek jk lk gh gi hi rg ml il vc _d _l"
+			>Do aplikacji</a
 		>
 
 		<span class="tc sf">
