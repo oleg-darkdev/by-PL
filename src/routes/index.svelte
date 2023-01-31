@@ -20,7 +20,7 @@
 		<h1 style="font-family: 'Impact';" class="fk vj zp or kk wm">
 			Witamy na stronie projektu edukacyjnego:
 		</h1>
-    <h2 style="font-family: 'Impact';" class="fk vj text-3xl font-impact tracking-tight text-red-500 ">
+    <h2 style="font-family: 'Impact';" class="fk vj text-3xl font-impact tracking-tight text-red-600 ">
       "Co łączy narody Białorusi i Polski".
     </h2>
 
@@ -63,7 +63,7 @@
     </div>
 
     <div class="animate_right jn/2">
-    <h2 class="ek yj text-red-500 ">Projekt składa się z edukacyjnej gry planszowej oraz web-aplikacji</h2>
+    <h2 class="ek yj text-red-600 ">Projekt składa się z edukacyjnej gry planszowej oraz web-aplikacji</h2>
     <h3 style="font-family: 'Impact';" class="fk vj zp pr kk font-impact">
 			Cel projektu: pokazać, jak bardzo jest podobni narody Polski i Białorusi.
 		</h3>
