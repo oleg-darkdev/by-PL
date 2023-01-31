@@ -77,9 +77,9 @@
         </article>
         <article class="mb-10 w-full p-4">
             <h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
-                W języku rosyjskim
+                W języku  białoruskim / rosyjskim 
             </h4> 
-            {#each cardData.sourcesRu as sourceData}
+            {#each cardData.sourcesBe as sourceData}
                     <ol id="sources-ru" class="gradient-list">
                         <li>
                             <a href={sourceData.link} class="inline-flex items-center text-gray-700 hover:underline">{sourceData.title}
