@@ -18,7 +18,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -52,7 +52,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -87,7 +87,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -122,7 +122,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -157,7 +157,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -192,7 +192,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -226,7 +226,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -260,7 +260,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -294,7 +294,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -328,7 +328,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -362,7 +362,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -399,7 +399,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -436,7 +436,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -473,7 +473,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -510,7 +510,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -547,7 +547,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -584,7 +584,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -621,7 +621,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -658,7 +658,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -695,7 +695,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -732,7 +732,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -769,7 +769,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -804,7 +804,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -841,7 +841,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -875,7 +875,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -909,7 +909,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -946,7 +946,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -983,7 +983,7 @@ const territory = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''

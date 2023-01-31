@@ -25,7 +25,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -51,7 +51,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -85,7 +85,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -119,7 +119,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -153,7 +153,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -187,7 +187,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -221,7 +221,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -255,7 +255,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -289,7 +289,7 @@ const history = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''

@@ -18,7 +18,7 @@ const feasts = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -52,7 +52,7 @@ const feasts = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -86,7 +86,7 @@ const feasts = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -120,7 +120,7 @@ const feasts = [
 				link: ''
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: ',
 				link: ''
@@ -162,7 +162,7 @@ const feasts = [
 				link: 'https://wolnelektury.pl/katalog/lektury/koledy/'
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: Каляды',
 				link: 'https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8F%D0%B4%D1%8B'
@@ -197,7 +197,7 @@ const feasts = [
 				link: 'https://www.vogue.pl/a/noc-kupaly-znaczenie-symbolika-obrzedy'
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: Иван Купала',
 				link: 'https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0'
@@ -235,7 +235,7 @@ const feasts = [
 				link: 'https://www.garneczki.pl/blog/walentynki-historia-i-ciekawostki/'
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: День святого Валентина',
 				link: 'https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D1%8C_%D1%81%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0'
@@ -265,7 +265,7 @@ const feasts = [
 				link: 'studiaelblaskie.pl/assets/Artykuly/CB-16-A19-Kowalczyk-Rew-1.pdf'
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: Пасха',
 				link: 'https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%81%D1%85%D0%B0'
@@ -299,7 +299,7 @@ const feasts = [
 				link: 'https://web.archive.org/web/20160312120336/http://womenwatch.unwomen.org/international-womens-day-history'
 			}
 		],
-		sourcesRu: [
+		sourcesBe: [
 			{
 				title: 'Wikipedia: Международный женский день',
 				link: 'https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C'
