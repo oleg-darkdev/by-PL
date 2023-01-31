@@ -13,7 +13,7 @@
 		<div 
 		style="min-width: 320px;" class="w-full pt-8 pb-8 pr-2 pl-2  description  ">
 
-			<h3 class=" m-8 text-5xl lg:text-6xl md:text-6xl text-red-500 font-impact">{category.title}</h3>
+			<h3 class=" m-8 text-5xl lg:text-6xl md:text-6xl text-red-600 font-impact">{category.title}</h3>
 
 			<p class="font-normal w-full lg:w-8/12 md:w-8/12 w-11/12  leading-tight mb-2 text-viol">
   				{category.description}
