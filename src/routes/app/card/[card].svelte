@@ -19,14 +19,14 @@
         <BreadcrumbItem href="/app">Aplikacja</BreadcrumbItem>
         <BreadcrumbItem>Karta №{$page.params.card}</BreadcrumbItem>
     </Breadcrumb> -->
-    <h1 class="mb-2 text-4xl font-impact tracking-tight text-red-500 dark:text-white">
+    <h1 class="mb-2 text-4xl font-impact tracking-tight text-gray-800 dark:text-white">
         Para kart z cyfrą №{cardData.id}
     </h1> 
     <div class="flex flex-row flex-wrap  justify-center">
         <div style="width: 400px;" class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col">
             <img class="rounded-t-lg" src="{cardData.img[0]}" alt="{cardData.title}"> 
             <div class="p-4 sm:p-6">
-                <a href="#sources-en" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-6 py-3.5 text-base text-white bg-red-500 hover:bg-gray-900 focus:ring-blue-300  rounded-lg">
+                <a href="#sources-en" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-6 py-3.5 text-base text-white bg-gray-900 hover:bg-gray-700 focus:ring-blue-300  rounded-lg">
                     Do zródła informacji 
                 </a>
             </div>
@@ -34,7 +34,7 @@
         <div style="width: 400px;" class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col">
             <img class="rounded-t-lg" src="{cardData.img[1]}" alt="{cardData.title}"> 
             <div class="p-4 sm:p-6">
-                <a href="#sources-ru" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-6 py-3.5 text-base text-white bg-red-500 hover:bg-gray-900 focus:ring-blue-300  rounded-lg">
+                <a href="#sources-ru" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-6 py-3.5 text-base text-white bg-gray-900 hover:bg-gray-700 focus:ring-blue-300  rounded-lg">
                     Do zródła informacji 
                 </a>
             </div>
@@ -62,7 +62,7 @@
             <h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
                 W języku polskim
             </h4> 
-            {#each cardData.sourcesEn as sourceData}
+            {#each cardData.sourcesPl as sourceData}
                     <ol id="sources-en" class="gradient-list">
                         <li>
                             <a href={sourceData.link} class="inline-flex items-center text-gray-700 hover:underline">{sourceData.title}
