@@ -1,35 +1,26 @@
 const feasts = [
 	{
-		title: 'Święto "Święto Pracy"',
+		title: 'Międzynarodowy Dzień Solidarności Ludzi Pracy',
 		img: ['/cards/feasts/1_maja_pl.svg', '/cards/feasts/1_maja_by.svg'],
 		id: 46,
-		description: ['', '', ''],
+		description: [
+			'Międzynarodowy Dzień Solidarności Ludzi Pracy, popularnie zwany Świętem Pracy lub po prostu 1 Maja – międzynarodowe święto klasy robotniczej, obchodzone od 1890 corocznie 1 maja. W Polsce Święto Pracy jest świętem państwowym od 1950.',
+			'Święto wprowadziła w 1889 II Międzynarodówka dla upamiętnienia wydarzeń z pierwszych dni maja 1886 w Chicago, w Stanach Zjednoczonych podczas strajku będącego częścią ogólnokrajowej kampanii na rzecz wprowadzenia 8-godzinnego dnia pracy.'
+		],
 		sourcesPl: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Międzynarodowy Dzień Solidarności Ludzi Pracy',
+				link: 'https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_Dzie%C5%84_Solidarno%C5%9Bci_Ludzi_Pracy'
 			},
 			{
-				title: 'Wikipedia: ',
-				link: ''
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Tadeusz Iwiński: Święto Pracy – wczoraj i dziś.',
+				link: 'https://przegladdziennikarski.pl/swieto-pracy-wczoraj-i-dzis/'
 			}
 		],
 		sourcesBe: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Первое мая (праздник)',
+				link: 'https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%B5_%D0%BC%D0%B0%D1%8F_(%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA)'
 			}
 		]
 	},
@@ -37,33 +28,29 @@ const feasts = [
 		title: 'Święto "Boże Narodzenie"',
 		img: ['/cards/feasts/christmas_pl.svg', '/cards/feasts/christmas_pl.svg'],
 		id: 47,
-		description: ['', '', ''],
+		description: [
+			'Boże Narodzenie w Polsce – najważniejsze i najuroczyściej obchodzone, obok Wielkanocy, święto religijne w Polsce. Jego tradycje ukształtowały się na przestrzeni wieków, gdy zwyczaje pochodzące z czasów pogańskich poprzeplatały się ze zwyczajami wprowadzonymi przez Kościół. Na ich kształt miały także wpływ inne obrządki kościelne oraz tradycje ludowe. Obecnie Boże Narodzenie ma charakter święta rodzinnego i najczęściej jest obchodzone w gronie najbliższych.',
+			'',
+			''
+		],
 		sourcesPl: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Boże Narodzenie w Polsce',
+				link: 'https://pl.wikipedia.org/wiki/Bo%C5%BCe_Narodzenie_w_Polsce'
 			},
 			{
-				title: 'Wikipedia: ',
-				link: ''
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Boże Narodzenie – Tradycje.',
+				link: 'web.archive.org/web/20131227031600/http://www.polishcenter.org/Christmas/TRADYCJE.htm'
 			}
 		],
 		sourcesBe: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Рождество Христово',
+				link: 'https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D0%BE_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE'
 			},
 			{
 				title: 'Wikipedia: Обряды и обычаи белорусов',
 				link: 'https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D1%8F%D0%B4%D1%8B_%D0%B8_%D0%BE%D0%B1%D1%8B%D1%87%D0%B0%D0%B8_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D0%BE%D0%B2'
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
 			}
 		]
 	},
@@ -71,33 +58,28 @@ const feasts = [
 		title: 'Święto "Dożynki"',
 		img: ['/cards/feasts/dożynki_pl.svg', '/cards/feasts/dożynki_by.svg'],
 		id: 48,
-		description: ['', '', ''],
+		description: [
+			'Dożynki, Święto Plonów, Wieńce – ludowe święto połączone z obrzędami dziękczynnymi za ukończenie żniw i prac polowych. W czasach przedchrześcijańskich – etniczne święto słowiańskie, przypadające w okresie równonocy jesiennej (23 września)[1]. Współcześnie obchodzone zwykle w jedną z niedziel lub sobót sierpnia lub września po zakończeniu żniw.',
+			'Zwyczaj ten, praktykowany przez Słowian i plemiona bałtyckie, w różnych stronach Polski określany był jako wyżynki, obrzynki, wieniec, wieńcowe, okrężne. Na Śląsku opolskim nazywane żniwniok[3]. Obrzęd dożynek prawdopodobnie związany był pierwotnie z kultem roślin i drzew, potem z pierwotnym rolnictwem. Wraz z rozwojem gospodarki folwarczno-dworskiej w XVI wieku dożynki zagościły na dworach majątków ziemskich. Urządzano je dla żniwiarzy (służby folwarcznej i pracowników najemnych) w nagrodę za wykonaną pracę przy żniwach i zebrane plony.'
+		],
 		sourcesPl: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Dożynki',
+				link: 'https://pl.wikipedia.org/wiki/Do%C5%BCynki'
 			},
 			{
-				title: 'Wikipedia: ',
-				link: ''
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Dożynki polskie dawniej i dziś',
+				link: 'https://www.religie.424.pl/dozynki-polskie-dawniej-i-dzis,1824,article.html'
 			}
 		],
 		sourcesBe: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Спажá',
+				link: 'https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%B6%D0%B8%D0%BD%D0%BA%D0%B8'
 			},
 			{
 				title: 'Wikipedia: Обряды и обычаи белорусов',
 				link: 'https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D1%8F%D0%B4%D1%8B_%D0%B8_%D0%BE%D0%B1%D1%8B%D1%87%D0%B0%D0%B8_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D0%BE%D0%B2'
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
 			}
 		]
 	},
@@ -105,33 +87,29 @@ const feasts = [
 		title: 'Święto "Dziady"',
 		img: ['/cards/feasts/dziady_pl.svg', '/cards/feasts/dziady_by.svg'],
 		id: 49,
-		description: ['', '', ''],
+		description: [
+			'Dziady (biał. Дзяды; ukr. Діди; lit. Ilgės) – w folklorze słowiańskim określenie na duchy przodków oraz zbiór przedchrześcijańskich obrzędów, rytuałów i zwyczajów, które były im poświęcone. Istotą tych obrzędów było „obcowanie żywych z umarłymi”, a konkretnie nawiązywanie relacji z duszami przodków, okresowo powracającymi do siedzib z czasów swojego życia.',
+			' Celem działań obrzędowych było pozyskanie przychylności zmarłych, których uważano za opiekunów w sferze płodności i urodzaju. Nazwa „dziady” używana była w poszczególnych gwarach głównie na terenach Białorusi, Polesia, Rosji i Ukrainy (niekiedy także na obszarach pogranicznych, np. Podlasie, Obwód smoleński, Auksztota), jednak pod różnymi innymi nazwami (pominki, przewody, radecznica, zaduszki) funkcjonowały bardzo zbliżone praktyki obrzędowe, powszechne wśród Słowian i Bałtów, a także w wielu kulturach europejskich, a nawet pozaeuropejskich.'
+		],
 		sourcesPl: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Dziady ',
+				link: 'https://pl.wikipedia.org/wiki/Dziady_(zwyczaj)'
 			},
 			{
-				title: 'Wikipedia: ',
-				link: ''
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
+				title:
+					'Olimpia Swianiewiczowa. Dziady białoruskie. „Rocznik Polskiego Towarzystwa Naukowego na Obczyźnie”',
+				link: 'https://pl.wikipedia.org/wiki/Rocznik_Polskiego_Towarzystwa_Naukowego_na_Obczy%C5%BAnie'
 			}
 		],
 		sourcesBe: [
 			{
-				title: 'Wikipedia: ',
-				link: ''
+				title: 'Wikipedia: Дзяды',
+				link: 'https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%B4%D1%8B_(%D0%BE%D0%B1%D1%80%D1%8F%D0%B4)'
 			},
 			{
 				title: 'Wikipedia: Обряды и обычаи белорусов',
 				link: 'https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D1%8F%D0%B4%D1%8B_%D0%B8_%D0%BE%D0%B1%D1%8B%D1%87%D0%B0%D0%B8_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D0%BE%D0%B2'
-			},
-			{
-				title: 'Wikipedia: ',
-				link: ''
 			}
 		]
 	},
