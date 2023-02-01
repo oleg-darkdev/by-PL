@@ -1,7 +1,7 @@
 <script>
     import { page } from '$app/stores';
     import boardgameCards from '../../../data/boardgameCards';
-    // import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
 
     const cardsList = [].concat(boardgameCards.history, boardgameCards.culture, boardgameCards.territory, boardgameCards.feasts),
             cardData = cardsList[$page.params.card - 1];   
@@ -14,11 +14,11 @@
 
 <main class="flex items-center p-2 flex-col pt-20">
     <section style="min-height: 100vh; height: auto;" class="mb-8 w-full flex items-center flex-col">
-    <!-- <Breadcrumb aria-label="Solid background breadcrumb example" solid>
+    <Breadcrumb aria-label="Solid background breadcrumb example" solid>
         <BreadcrumbItem href="/" home>Strona główna</BreadcrumbItem>
         <BreadcrumbItem href="/app">Aplikacja</BreadcrumbItem>
         <BreadcrumbItem>Karta №{$page.params.card}</BreadcrumbItem>
-    </Breadcrumb> -->
+    </Breadcrumb>
     <h1 class="mb-2 text-4xl font-impact tracking-tight text-gray-800 dark:text-white">
         Para kart z cyfrą №{cardData.id}
     </h1> 
