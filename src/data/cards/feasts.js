@@ -59,8 +59,8 @@ const feasts = [
 		img: ['/cards/feasts/dożynki_pl.svg', '/cards/feasts/dożynki_by.svg'],
 		id: 48,
 		description: [
-			'Dożynki, Święto Plonów, Wieńce – ludowe święto połączone z obrzędami dziękczynnymi za ukończenie żniw i prac polowych. W czasach przedchrześcijańskich – etniczne święto słowiańskie, przypadające w okresie równonocy jesiennej (23 września)[1]. Współcześnie obchodzone zwykle w jedną z niedziel lub sobót sierpnia lub września po zakończeniu żniw.',
-			'Zwyczaj ten, praktykowany przez Słowian i plemiona bałtyckie, w różnych stronach Polski określany był jako wyżynki, obrzynki, wieniec, wieńcowe, okrężne. Na Śląsku opolskim nazywane żniwniok[3]. Obrzęd dożynek prawdopodobnie związany był pierwotnie z kultem roślin i drzew, potem z pierwotnym rolnictwem. Wraz z rozwojem gospodarki folwarczno-dworskiej w XVI wieku dożynki zagościły na dworach majątków ziemskich. Urządzano je dla żniwiarzy (służby folwarcznej i pracowników najemnych) w nagrodę za wykonaną pracę przy żniwach i zebrane plony.'
+			'Dożynki, Święto Plonów, Wieńce – ludowe święto połączone z obrzędami dziękczynnymi za ukończenie żniw i prac polowych. W czasach przedchrześcijańskich – etniczne święto słowiańskie, przypadające w okresie równonocy jesiennej (23 września). Współcześnie obchodzone zwykle w jedną z niedziel lub sobót sierpnia lub września po zakończeniu żniw.',
+			'Zwyczaj ten, praktykowany przez Słowian i plemiona bałtyckie, w różnych stronach Polski określany był jako wyżynki, obrzynki, wieniec, wieńcowe, okrężne. Na Śląsku opolskim nazywane żniwniok. Obrzęd dożynek prawdopodobnie związany był pierwotnie z kultem roślin i drzew, potem z pierwotnym rolnictwem. Wraz z rozwojem gospodarki folwarczno-dworskiej w XVI wieku dożynki zagościły na dworach majątków ziemskich. Urządzano je dla żniwiarzy (służby folwarcznej i pracowników najemnych) w nagrodę za wykonaną pracę przy żniwach i zebrane plony.'
 		],
 		sourcesPl: [
 			{
@@ -118,7 +118,7 @@ const feasts = [
 		img: ['/cards/feasts/kolędy_pl.svg', '/cards/feasts/kolędy_by.svg'],
 		id: 50,
 		description: [
-			'Kolęda – pierwotnie radosna pieśń noworoczna, która współcześnie przyjęła powszechnie formę pieśni bożonarodzeniowej (nawiązującej do świąt Bożego Narodzenia). Utrzymywana najczęściej w konwencji religijnej, początkowo wywodząca się z tradycji ludowej, w późniejszym okresie komponowana jest również przez wielu wybitnych kompozytorów. Odmiana kolędy o wątkach zaczerpniętych z życia codziennego nazywana jest pastorałką, która w odróżnieniu od kolędy we współczesnym, potocznym tego słowa rozumieniu, nie jest wykorzystywana w chrześcijańskich nabożeństwach religijnych ze względu na swój świecki charakter[1]. ',
+			'Kolęda – pierwotnie radosna pieśń noworoczna, która współcześnie przyjęła powszechnie formę pieśni bożonarodzeniowej (nawiązującej do świąt Bożego Narodzenia). Utrzymywana najczęściej w konwencji religijnej, początkowo wywodząca się z tradycji ludowej, w późniejszym okresie komponowana jest również przez wielu wybitnych kompozytorów. Odmiana kolędy o wątkach zaczerpniętych z życia codziennego nazywana jest pastorałką, która w odróżnieniu od kolędy we współczesnym, potocznym tego słowa rozumieniu, nie jest wykorzystywana w chrześcijańskich nabożeństwach religijnych ze względu na swój świecki charakter. ',
 			'Co roku w Polsce odbywają się liczne przeglądy i festiwale kolędowe, z których największym, gromadzącym kilkadziesiąt tysięcy wykonawców jest Ogólnopolski Festiwal Kolęd i Pastorałek w Będzinie.',
 			''
 		],
@@ -160,10 +160,10 @@ const feasts = [
 		img: ['/cards/feasts/kupala_pl.svg', '/cards/feasts/kupala_by.svg'],
 		id: 51,
 		description: [
-			'Noc Kupały (zwana też nocą kupalną, kupalnocką, kupałą) – słowiańskie święto związane z letnim przesileniem Słońca, obchodzone w czasie najkrótszej nocy w roku, co przypada około 21-22 czerwca[1][2]. W krajach anglosaskich pod nazwą Midsummer, w germańskich Mittsommerfest. Kościół katolicki, nie mogąc wykorzenić corocznych obchodów Sobótki z wywodzącej się z wierzeń słowiańskich obyczajowości, podjął próbę zasymilowania święta z obrzędowością chrześcijańską (stąd późniejsza wigilia św. Jana – potocznie zwana też nocą świętojańską, posiadająca wówczas wiele zapożyczeń ze święta wcześniejszego – obchodzona w nocy z 23 na 24 czerwca[1][2]). ',
+			'Noc Kupały (zwana też nocą kupalną, kupalnocką, kupałą) – słowiańskie święto związane z letnim przesileniem Słońca, obchodzone w czasie najkrótszej nocy w roku, co przypada około 21-22 czerwca. W krajach anglosaskich pod nazwą Midsummer, w germańskich Mittsommerfest. Kościół katolicki, nie mogąc wykorzenić corocznych obchodów Sobótki z wywodzącej się z wierzeń słowiańskich obyczajowości, podjął próbę zasymilowania święta z obrzędowością chrześcijańską (stąd późniejsza wigilia św. Jana – potocznie zwana też nocą świętojańską, posiadająca wówczas wiele zapożyczeń ze święta wcześniejszego – obchodzona w nocy z 23 na 24 czerwca). ',
 			'Na południu Polski, Podkarpaciu i Śląsku uroczystość o podobnym charakterze zwie się sobótką lub sobótkami, na Warmii i Mazurach palinocką. Nazwa Noc Kupały, kupalnocka utrwaliła się w tradycji Mazowsza i Podlasia. ',
 			'Święto ognia, wody, słońca i księżyca, urodzaju, płodności, radości i miłości, powszechnie obchodzone na obszarach zamieszkiwanych przez ludy słowiańskie, ale również w podobnym charakterze na obszarach zamieszkiwanych przez ludy bałtyckie, germańskie i celtyckie, a także przez część narodów ugrofińskich, np. Finów (w Finlandii jest jednym z najważniejszych świąt w kalendarzu) i Estończyków. Na Łotwie pod nazwą Līgo jest wolnym od pracy świętem państwowym (23 i 24 czerwca). Również na Litwie dzień 24 czerwca, od 2005 roku, jest wolny od pracy.',
-			'Święto to jest często opisywane i popularyzowane współcześnie jako rodzima alternatywa wobec zachodnich walentynek[4].'
+			'Święto to jest często opisywane i popularyzowane współcześnie jako rodzima alternatywa wobec zachodnich walentynek.'
 		],
 		sourcesPl: [
 			{
@@ -225,8 +225,8 @@ const feasts = [
 		img: ['/cards/feasts/wielkanoc_pl.svg', '/cards/feasts/wielkanoc_by.svg'],
 		id: 53,
 		description: [
-			'Wielkanoc w Polsce jest jednym z najważniejszych świąt w Polsce, często porównywalnym pod względem znaczenia kulturowego do Bożego Narodzenia. Jest to święto państwowe, wolne od pracy. Wiąże się z nim wiele specyficznych zwyczajów i tradycji[1][2]. ',
-			'Wielkanoc obchodzona jest w Polsce od chrystianizacji kraju w średniowieczu[2]. W dobie rozbiorów było ono postrzegane jako ważne święto patriotyczne, przypominające Polakom o ich kulturze.',
+			'Wielkanoc w Polsce jest jednym z najważniejszych świąt w Polsce, często porównywalnym pod względem znaczenia kulturowego do Bożego Narodzenia. Jest to święto państwowe, wolne od pracy. Wiąże się z nim wiele specyficznych zwyczajów i tradycji. ',
+			'Wielkanoc obchodzona jest w Polsce od chrystianizacji kraju w średniowieczu. W dobie rozbiorów było ono postrzegane jako ważne święto patriotyczne, przypominające Polakom o ich kulturze.',
 			'Niektóre z polskich tradycji wielkanocnych mają swoje korzenie we wcześniejszych wierzeniach pogańskich, a inne były fuzją tych tradycji z nową tradycją chrześcijańską. Do takich tradycji zaliczają się między innymi te związane ze święconką, przygotowywaną w Wielką Sobotę i pisankami. W czasie Wielkanocy praca, w tym prace domowe, powinna być ograniczona do minimum. Ponieważ Polska jest w przeważającej części katolicka, większość tradycji wiąże się z Kościołem katolickim, chociaż wiele z innych mniejszości religijnych w Polsce również ma swoje zwyczaje związane z Wielkanocą.'
 		],
 		sourcesPl: [

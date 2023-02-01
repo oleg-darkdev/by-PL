@@ -196,7 +196,7 @@ const history = [
 		id: 8,
 		description: [
 			'Biało-czerwono-biała flaga Białorusi (biał. Бел-чырвона-белы сцяг, łacinka Bieł-čyrvona-bieły ściah, transkrypcja Bieł-czyrwona-bieły ściah) – historyczna flaga Białorusi przyjęta w 1918 roku przez władze Białoruskiej Republiki Ludowej, będąca również jej symbolem na emigracji, w latach 1991–1995 flaga państwowa Republiki Białorusi, obecnie używana jest jako symbol białoruskiej państwowości przez antyłukaszenkowską opozycję. Składa się z trzech równej wielkości pasów: dwóch białych i czerwonego między nimi. ',
-			'Według ustawy z dnia 31 stycznia 1980 r. o godle, barwach i hymnie Rzeczypospolitej Polskiej oraz o pieczęciach państwowych[9], jest nią prostokątny płat tkaniny o barwach Rzeczypospolitej Polskiej i proporcji 5:8, umieszczony na maszcie. Zgodnie z art. 6 ust. 2 ustawy, za flagę Polski uważany jest także wariant z godłem Polski, umieszczonym pośrodku białego pasa. ',
+			'Według ustawy z dnia 31 stycznia 1980 r. o godle, barwach i hymnie Rzeczypospolitej Polskiej oraz o pieczęciach państwowych, jest nią prostokątny płat tkaniny o barwach Rzeczypospolitej Polskiej i proporcji 5:8, umieszczony na maszcie. Zgodnie z art. 6 ust. 2 ustawy, za flagę Polski uważany jest także wariant z godłem Polski, umieszczonym pośrodku białego pasa. ',
 			'Flagi Białorusi i Polski są bardzo podobne, zarówno pod względem kolorystyki, jak i układu elementów.'
 		],
 		sourcesPl: [
@@ -225,7 +225,7 @@ const history = [
 		img: ['/cards/history/front_ussr_pl.svg', '/cards/history/front_ussr_by.svg'],
 		id: 9,
 		description: [
-			'Rozpad ZSRR – proces rozpadu Związku Socjalistycznych Republik Radzieckich (ówcześnie największego państwa świata) zapoczątkowany ogłoszeniem suwerenności przez Estońską SRR 16 listopada 1988 i zakończony deklaracją o samorozwiązaniu ZSRR uchwaloną przez Radę Najwyższą ZSRR 26 grudnia 1991[1][2]. W okresie tym wszystkie piętnaście republik ZSRR ogłosiło suwerenność, wystąpiło z ZSRR i stało się niepodległymi państwami.',
+			'Rozpad ZSRR – proces rozpadu Związku Socjalistycznych Republik Radzieckich (ówcześnie największego państwa świata) zapoczątkowany ogłoszeniem suwerenności przez Estońską SRR 16 listopada 1988 i zakończony deklaracją o samorozwiązaniu ZSRR uchwaloną przez Radę Najwyższą ZSRR 26 grudnia 1991. W okresie tym wszystkie piętnaście republik ZSRR ogłosiło suwerenność, wystąpiło z ZSRR i stało się niepodległymi państwami.',
 			'8 grudnia 1991 roku przywódcy Ukrainy i Białorusi, Leonid Krawczuk i Stanisław Szuszkiewicz, wspólnie z Jelcynem podpisali w Wiskulach na Białorusi porozumienia, które w miejsce ZSRR powoływały Wspólnotę Niepodległych Państw. Pozostałe republiki zaproszono do nowej federacji. Do końca 1991 roku Związek Radziecki, który powstał 30 grudnia 1922 roku, przestał istnieć na mocy prawa.'
 		],
 		sourcesPl: [
