@@ -8,6 +8,29 @@
 <footer class="bg-red-600">
   <div class=" py-8 px-6 flex flex-row justify-center">
     <div class="ml-6 mr-6">
+      <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">O projekcie
+      </h2> 
+      <ul class="text-white">
+        <li class="mb-4">
+          <a href="https://by-pl.vercel.app/" class="hover:underline">GitHub repozytorium
+          </a>
+        </li>
+        
+        <li class="mb-4">
+          <a href="https://github.com/oleg-darkdev/by-PL/tree/master/static/cards" class="hover:underline">Pliki do pobrania
+          </a>
+        </li>
+        
+        <li class="mb-4">
+          <a href="https://github.com/oleg-darkdev/by-PL/tree/master/static/print" class="hover:underline">Pliki do wydrukowania
+          </a>
+        </li>
+
+      </ul>
+      
+    </div> 
+
+    <div class="ml-6 mr-6">
       <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">Strona główna
       </h2> 
       <ul class="text-white">
