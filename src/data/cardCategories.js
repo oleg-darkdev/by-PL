@@ -4,6 +4,7 @@ let categories = [
 	{
 		bgImage: 'history',
 		title: 'Historia',
+		nav: 'Karty historii',
 		id: 'history',
 		description: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
@@ -25,6 +26,7 @@ let categories = [
 	{
 		bgImage: 'culture',
 		title: 'Kultura',
+		nav: 'Karty kultury',
 		id: 'culture',
 
 		description: [
@@ -49,6 +51,7 @@ let categories = [
 		bgImage: 'territory',
 		title: 'Teren',
 		id: 'territory',
+		nav: 'Karty terenów',
 
 		description: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
@@ -91,6 +94,7 @@ let categories = [
 		bgImage: 'feast',
 		title: 'Święta',
 		id: 'feast',
+		nav: 'Karty świąteczne',
 
 		description: [
 			'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
