@@ -1,3 +1,7 @@
+
+Zestaw do gry
+Zestaw 108 kart. 64 karty dla Polski i 64 dla Białorusi.
+
 Przebieg gry:
 1. Gracze wybierają talię krajów. Talie różnią się flagami Białorusi/Polski na koszulkach kart.
 2. Gracz rozpoczynający turę zadaje pytanie pomocnicze.
