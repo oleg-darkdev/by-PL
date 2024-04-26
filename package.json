@@ -32,17 +32,13 @@
 		"eslint": "^8.21.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"flowbite": "^1.5.1",
-		"flowbite-svelte": "^0.24.0",
-		"flowbite-svelte-blocks": "^0.1.6",
+		
 		"postcss": "^8.4.14",
 		"postcss-load-config": "4.0.1",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.49.0",
 		"svelte-check": "^2.8.0",
-		"svelte-heros": "^2.9.2",
-		"svelte-heros-v2": "^0.2.4",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.8",
 		"tslib": "^2.4.0",
@@ -53,8 +49,7 @@
 	"keywords": [
 		"svelte",
 		"sveltekit",
-		"flowbite",
-		"flowbite-svelte",
+	
 		"tailwindcss"
 	],
 	"engines": {

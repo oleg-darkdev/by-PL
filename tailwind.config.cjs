@@ -8,7 +8,7 @@ const config = {
 		extend: {}
 	},
 
-	plugins: [require('flowbite/plugin')],
+	// plugins: [require('')],
 	darkMode: 'class'
 };
 

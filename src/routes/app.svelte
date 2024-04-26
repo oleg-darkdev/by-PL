@@ -1,14 +1,14 @@
 <script>
 	import cardCategories from '../data/cardCategories';
-	import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+	// import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
 </script>
 
 <main class="pt-20 p-2 flex flex-col items-center">
 	<div class="p-12 bg-gray-200 max-w-2xl rounded-lg justify-center flex-col">
-		<Breadcrumb aria-label="Solid background breadcrumb example" solid>
+		<!-- <Breadcrumb aria-label="Solid background breadcrumb example" solid>
 			<BreadcrumbItem href="/" home>Strona główna</BreadcrumbItem>
 			<BreadcrumbItem href="/app">app</BreadcrumbItem>
-		</Breadcrumb>
+		</Breadcrumb> -->
 
 		<h1 class="mt-4 text-5xl text-center font-impact tracking-tight text-gray-700">Nawigacja</h1>
 		<ul class="relative w-full text-gray-600 text-dark max-w-md list-disc list-inside space-y-1">
