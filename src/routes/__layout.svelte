@@ -1,5 +1,7 @@
 <script>
 	import '../app.css';
+	import DarkDevContact from '../components/DarkDevContact.svelte';
+	import '@fortawesome/fontawesome-free/css/all.min.css';
 </script>
 
 <svelte:head>
@@ -10,6 +12,8 @@
 
 <footer class="bg-red-600">
 	<div class=" py-8 px-6 flex flex-row justify-center">
+		
+		<DarkDevContact />
 		<div class="ml-6 mr-6">
 			<h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">O projekcie</h2>
 			<ul class="text-white">
@@ -54,6 +58,9 @@
 
 				<li class="mb-4">
 					<a href="/#feast" class="hover:underline">Święta </a>
+				</li>
+				<li class="mb-4">
+					<a href="/#faq" class="hover:underline">F.A.Q. </a>
 				</li>
 			</ul>
 		</div>
