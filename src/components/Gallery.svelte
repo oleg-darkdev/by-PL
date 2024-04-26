@@ -1,40 +1,52 @@
-<div class="flex flex-col justify-center items-center">
-    <div class="grid-container">
-        <slot></slot>
-     </div>
+<script>
+  	import cardCategories from '../data/cardCategories';
+</script>
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="{cardCategories[0].cardsData[0].img[0]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg  max-h-[360px] object-cover w-full " src="{cardCategories[2].cardsData[14].img[1]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="{cardCategories[1].cardsData[0].img[0]}" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg max-h-[340px] object-cover  w-full" src="{cardCategories[1].cardsData[2].img[1]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="{cardCategories[0].cardsData[1].img[0]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg max-h-[270px] object-cover  w-full" src="{cardCategories[1].cardsData[4].img[1]}" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="{cardCategories[2].cardsData[1].img[1]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg max-h-[360px] object-cover  w-full" src="{cardCategories[2].cardsData[17].img[0]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg max-h-[460px] object-cover w-full"  src="{cardCategories[1].cardsData[7].img[1]}" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg max-h-[360px] object-cover  w-full" src="{cardCategories[0].cardsData[6].img[1]}" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg max-h-[270px] object-cover w-full" src="{cardCategories[0].cardsData[4].img[0]}" alt="">
+        </div>
+    </div>
 </div>
 
-<style>
-.grid-container {
-  columns: 6 180px;
-  column-gap: 1rem;
-  width: 90%;
-  margin: 0 auto;
-}
 
-:global(.grid-container > .cards-row) {
-  width: 10px;
-  margin: 0 1.5rem 1.5rem 0;
-  display: inline-block;
-  width: 100%;
-  border: solid 2px black;
-  background-color: #fff;
-  padding: 5px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  transition: all 0.25s ease-in-out;
-}
-:global(.grid-container div:hover img) {
-  filter: grayscale(0);
- 
-}
-:global(.grid-container div:hover) {
-  border-color: coral;
-}
-:global(.grid-container div img) {
-  width: 100%;
-  filter: grayscale(100%);
-  border-radius: 5px;
-  transition: all 0.25s ease-in-out;
-}
-</style>
