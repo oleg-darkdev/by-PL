@@ -1,5 +1,6 @@
 <script>
 	import Gallery from '../components/Gallery.svelte';
+	import FAQ from '../components/FAQ.svelte';	
 	import TypesOfCards from '../components/TypesOfCards.svelte';
 	import cardCategories from '../data/cardCategories';
 </script>
@@ -128,21 +129,7 @@
 		Galeria obrazów wykorzystanych w grze
 	</h2>
 
-	<Gallery>
-		{#each cardCategories as categoryData}
-			<!-- <div class="flex flex-row flex-wrap justify-center w-full"> -->
-			{#each categoryData.cardsData.slice(0, 5) as boardgameCard}
-				<div class="cards-row">
-					<img
-						class="grid-item grid-item-{boardgameCard.id + 1}"
-						src={boardgameCard.img[0]}
-						alt=""
-					/>
-				</div>
-			{/each}
-			<!-- </div> -->
-		{/each}
-	</Gallery>
+	<Gallery />
 </section>
 
 <section class="-mt-20  px-8 py-2 bg-red-500 dark:text-gray-100">
@@ -158,7 +145,7 @@
 			rel="noopener noreferrer"
 			class="items-center gap-2 hidden md:flex"
 		>
-			<svg role="img" viewBox="0 0 22 22" fill='#111827' class="h-12 w-12">
+			<svg role="img" viewBox="0 0 22 22" fill="#111827" class="h-12 w-12">
 				<path
 					clip-rule="evenodd"
 					d="M6.5 1.75a1.75 1.75 0 100 3.5h3.51a8.785 8.785 0 00-.605-1.389C8.762 2.691 7.833 1.75 6.5 1.75zm5.49 3.5h3.51a1.75 1.75 0 000-3.5c-1.333 0-2.262.941-2.905 2.111a8.778 8.778 0 00-.605 1.389zM1.75 6.75v3.5h18.5v-3.5H1.75zm18 5H21a.75.75 0 00.75-.75V6a.75.75 0 00-.75-.75h-2.761a3.25 3.25 0 00-2.739-5c-2.167 0-3.488 1.559-4.22 2.889a9.32 9.32 0 00-.28.553 9.32 9.32 0 00-.28-.553C9.988 1.809 8.667.25 6.5.25a3.25 3.25 0 00-2.739 5H1A.75.75 0 00.25 6v5c0 .414.336.75.75.75h1.25V21c0 .414.336.75.75.75h16a.75.75 0 00.75-.75v-9.25zm-1.5 0H3.75v8.5h14.5v-8.5z"
@@ -174,43 +161,9 @@
 	<TypesOfCards {category} />
 {/each}
 
-<!-- 
-<section class="pg pj vp mr oj wp nr">
-	<div class="flex-row tc ">
-		<div class="flex flex-col lg:w-6/12 lg:w-8/12 w-full"> 
-		<div class="flex flex-row flex-wrap justify-end">
-		<div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-		<div class="c i pg sg z-1">
-			<img src="images/bg/project_1.png" alt="Project" />
 
-		</div>
-		</div>
+<FAQ />
 
-		<div class="project-item wi fb vd jn/2 to/3 digital">
-		<div class="c i pg sg z-1">
-			<img src="images/bg/project_2.png" class="border-2 border-red-500 rounded-xl" alt="Project" />
-
-		</div>
-		</div>
-		
-		<div class="project-item wi fb vd vo/3 digital ecommerce">
-		<div class="c i pg sg z-1">
-			<img src="images/bg/project_3.png" alt="Project" />
-
-		</div>
-		</div>
-		</div>
-		</div>
-		<div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-		<div class="c i pg sg z-1">
-			<img src="images/bg/project_4.png" alt="Project" />
-
-		</div>
-		</div>
-
-
-	</div>
-</section> -->
 <style>
 	hr {
 		height: 0; /* 1 */
