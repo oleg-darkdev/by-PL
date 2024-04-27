@@ -11,10 +11,11 @@
 <slot />
 
 <footer class="bg-red-600">
-	<div class=" py-8 px-6 flex flex-row justify-center">
+	<div class=" py-8 px-6 flex flex-row justify-center flex-wrap">
 		
 		<DarkDevContact />
-		<div class="ml-6 mr-6">
+		<div class="grid lg:grid-cols-4 grid-cols-2">
+			<div class="ml-6 mr-6">
 			<h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">O projekcie</h2>
 			<ul class="text-white">
 				<li class="mb-4">
@@ -105,6 +106,7 @@
 					<a href="https://linktr.ee/darkdev" class="hover:underline">Linktr.ee </a>
 				</li>
 			</ul>
+		</div>
 		</div>
 	</div>
 </footer>

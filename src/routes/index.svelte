@@ -1,11 +1,11 @@
 <script>
 	import Gallery from '../components/Gallery.svelte';
-	import FAQ from '../components/FAQ.svelte';	
+	import FAQ from '../components/FAQ.svelte';
 	import TypesOfCards from '../components/TypesOfCards.svelte';
 	import cardCategories from '../data/cardCategories';
 </script>
 
-<section class="gj do ir hj sp jr i pg">
+<section class="gj jr i pg">
 	<div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
 		<img src="images/shapes/shape-04.svg" alt="shape" class="h q r" />
 		<img src="images/bg/hero.png" alt="Woman" class="h q r ua" />
@@ -19,7 +19,7 @@
 				</h1>
 				<h2
 					style="font-family: 'Impact';"
-					class="fk vj text-3xl font-impact tracking-tight text-red-600 "
+					class="fk vj text-3xl font-impact tracking-tight text-red-600"
 				>
 					"Co łączy narody Białorusi i Polski".
 				</h2>
@@ -66,7 +66,7 @@
 			</div>
 
 			<div class="animate_right jn/2">
-				<h2 class="ek yj text-red-600 ">
+				<h2 class="ek yj text-red-600">
 					Projekt składa się z edukacyjnej gry planszowej oraz web-aplikacji
 				</h2>
 				<h3 style="font-family: 'Impact';" class="fk vj zp pr kk font-impact">
@@ -79,23 +79,23 @@
 
 				<ul
 					style="margin-bottom: 20px;"
-					class="text-light text-gray-900 max-w-md list-inside space-y-1 "
+					class="text-light text-gray-900 max-w-md list-inside space-y-1"
 				>
 					<li class="ml-8 list-disc">
 						<a href="#culture">
 							znanych osóbach, które wniosły wkład w historię i kulturę Białorusi i Polski,
 						</a>
 					</li>
-					<li class="ml-8  list-disc">
+					<li class="ml-8 list-disc">
 						<a href="#culture"> kuchnie narodowe i preferencje żywnościowe </a>
 					</li>
-					<li class="ml-8  list-disc">
+					<li class="ml-8 list-disc">
 						<a href="#feast"> zwyczaje i święta kulturowe </a>
 					</li>
-					<li class="ml-8  list-disc">
+					<li class="ml-8 list-disc">
 						<a href="#territory"> miasta partnerskie, które warto odwiedzić </a>
 					</li>
-					<li class="ml-8  list-disc">
+					<li class="ml-8 list-disc">
 						<a href="#history"> ważne wspólne wydarzenia historyczne </a>
 					</li>
 					<li class="ml-8 list-disc">
@@ -109,13 +109,13 @@
 					href="/app"
 					style="width: 260px;"
 					data-fslightbox
-					class="vc wf hg mb p-2 flex pt-4 items-center flex-col bg-white text-white rounded-lg border-4 border-red-500 shadow-md  hover:border-red-200 flex-col hover:bg-gray-100 hover:text-red-500 "
+					class="vc wf hg mb p-2 flex pt-4 items-center flex-col bg-white text-white rounded-lg border-4 border-red-500 shadow-md hover:border-red-200 flex-col hover:bg-gray-100 hover:text-red-500"
 				>
 					<span class="tc wf xf be dd rg i gh ua">
 						<span class="nf h vc yc vd rg gh qk -ud-z-1" />
 						<img src="images/icon-play.svg" alt="Play" />
 					</span>
-					<span class="mb-2 -mt-4 text-3xl font-impact tracking-tight text-red-500 ">
+					<span class="mb-2 -mt-4 text-3xl font-impact tracking-tight text-red-500">
 						Do aplikacji
 					</span>
 				</a>
@@ -124,15 +124,15 @@
 	</div>
 </section>
 
-<section class="w-full -mt-20 pb-12 mb-2 flex flex-col items-center">
-	<h2 style="font-family: 'Impact'; font-size: 2.5rem; margim-bottom: 10px;" class="text-gray-700">
+<section class="w-full -mt-20 pb-12 px-2 mb-2 flex flex-col items-center">
+	<h2 style="font-family: 'Impact'; font-size: 2.3rem;" class="mb-10 text-gray-700">
 		Galeria obrazów wykorzystanych w grze
 	</h2>
 
 	<Gallery />
 </section>
 
-<section class="-mt-20  px-8 py-2 bg-red-500 dark:text-gray-100">
+<section class="-mt-20 px-8 py-2 bg-red-500 ">
 	<div class="flex items-center mx-auto container justify-between py-2 max-w-5xl">
 		<div>
 			<span style="font-family: 'Impact'; font-size: 1.8rem; " class="text-gray-900"
@@ -160,7 +160,6 @@
 {#each cardCategories as category}
 	<TypesOfCards {category} />
 {/each}
-
 
 <FAQ />
 
