@@ -37,7 +37,7 @@
 
 <a name="faq"></a>
 
-<div class="container">
+<div class="container w-full px-4 py-10 max-w-4xl">
 	<!-- <h2>Frequently Asked Questions</h2> -->
 	<div class="accordion">
         {#each faqData as faq}
@@ -70,8 +70,6 @@
 
 	.container {
 		margin: 0 auto;
-		padding: 4rem;
-		width: 48rem;
 	}
 
 	/* .accordion .accordion-item {
