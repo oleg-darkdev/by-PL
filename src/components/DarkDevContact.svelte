@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-start">
+<div class="flex flex-col justify-start mb-6">
     <!-- <div class="py-1 max-w-[140px] ">
 		<h2 class="text-white text-center ">Autor i twórca <br /> Oleg Medvedev</h2>
 		<div class="flex flex-row flex-wrap justify-center">
