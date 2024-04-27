@@ -19,15 +19,15 @@
 			<BreadcrumbItem href="/app">Aplikacja</BreadcrumbItem>
 			<BreadcrumbItem>Karta №{$page.params.card}</BreadcrumbItem>
 		</Breadcrumb> -->
-		<h1 class="mb-2 text-4xl font-impact tracking-tight text-gray-800 dark:text-white">
+		<h1 class="mb-2 text-4xl font-impact tracking-tight text-gray-800 ">
 			Para kart z cyfrą №{cardData.id}
 		</h1>
 		<div class="flex flex-row flex-wrap  justify-center">
 			<div
 				style="width: 400px;"
-				class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col"
+				class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200  shadow-md flex  flex-col"
 			>
-				<img class="rounded-t-lg" src={cardData.img[0]} alt={cardData.title} />
+				<img class="rounded-t-lg text-gray-600" src={cardData.img[0]} alt={cardData.title} />
 				<div class="p-4 sm:p-6">
 					<a
 						href="#sources-en"
@@ -39,7 +39,7 @@
 			</div>
 			<div
 				style="width: 400px;"
-				class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col"
+				class="m-4 bg-white text-gray-500 rounded-lg border-2 border-gray-200  shadow-md flex  flex-col"
 			>
 				<img class="rounded-t-lg" src={cardData.img[1]} alt={cardData.title} />
 				<div class="p-4 sm:p-6">
@@ -54,16 +54,16 @@
 		</div>
 		<div
 			style=""
-			class="max-w-4xl m-4 bg-gray-100 text-gray-500 rounded-lg border-2 border-gray-200 dark:border-gray-700 shadow-md flex  flex-col"
+			class="max-w-4xl m-4 bg-gray-100 text-gray-500 rounded-lg border-2 border-gray-200  shadow-md flex  flex-col"
 		>
 			<div class="p-4 sm:p-6">
 				<h3
-					class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-800 dark:text-white"
+					class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-800 "
 				>
 					Informacja ogólna
 				</h3>
 				{#each cardData.description as description}
-					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+					<p class="mb-3 font-normal text-gray-700  leading-tight">
 						{description}
 					</p>
 				{/each}
@@ -75,12 +75,12 @@
 		class="bg-gray-200 xl:w-6/12 lg:w-6/12 md:w-8/12 w-full pt-12 pb-12 flex flex-col items-center shadow-2xl rounded-lg border-2 border-gray-200"
 	>
 		<h3
-			class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-800 dark:text-white"
+			class="mb-2  w-full text-center text-4xl font-impact tracking-tight text-gray-800 "
 		>
 			Źródła informacji
 		</h3>
 		<article class="mb-10 w-full p-4">
-			<h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
+			<h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 ">
 				W języku polskim
 			</h4>
 			{#each cardData.sourcesPl as sourceData}
@@ -108,7 +108,7 @@
 			{/each}
 		</article>
 		<article class="mb-10 w-full p-4">
-			<h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 dark:text-white">
+			<h4 class="mb-4 text-3xl font-impact tracking-tight text-gray-800 ">
 				W języku białoruskim / rosyjskim
 			</h4>
 			{#each cardData.sourcesBe as sourceData}

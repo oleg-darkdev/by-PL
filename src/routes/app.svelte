@@ -64,11 +64,13 @@
 						<a
 							href="/app/card/{cardData.id}"
 							style="background-image: url({cardData.img[1]})"
-							class="bg-red-500 w-40 h-40 rounded-lg border bg-cover bg-center border-gray-200 dark:border-gray-700 shadow-md flex  flex-col hover:bg-gray-800 p-4 sm:p-6"
+							class="transition m-1 duration-300 ease-in-out delay-150 transform hover:scale-150 hover:z-10 w-40 h-40 rounded-lg border bg-cover bg-center border-gray-200  shadow-md flex  flex-col p-2"
 						>
-							<h5 class="mb-2 text-8xl text-center font-impact tracking-tight text-gray-900">
+							<div class="w-full h-full glass rounded">
+								<h5 class="relative top-3 text-8xl text-center font-impact tracking-tight text-neutral-800">
 								{cardData.id}
 							</h5>
+							</div>
 						</a>
 					{/each}
 				</div>
@@ -78,6 +80,13 @@
 </main>
 
 <style>
+		.glass {
+		background: rgba(12, 10, 9, 0.1);
+		overflow: hidden;
+		backdrop-filter: blur(2px);
+		-webkit-backdrop-filter: blur(2px);
+	}
+
 	.bg-section {
 		height: auto;
 		background-repeat: no-repeat;
